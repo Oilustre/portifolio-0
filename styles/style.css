@@ -156,4 +156,32 @@ body {
         width: auto;
         text-align: center;
     }
+
+}
+
+@media (max-width: 400px) {
+    .apresentacao__links__navegação {
+        width: 100%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+        gap: 3%;
+        font-size: 1.25rem;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+        text-align: center;
+    }
+
+    .rodape {
+        font-size: 1rem;
+    }
 }
